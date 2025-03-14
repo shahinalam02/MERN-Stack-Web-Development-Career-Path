@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "Inter", sans-serif;
+}
+
+#studentRGform {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    padding-right: 50px;
+}
+
+#studentRGform {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    padding-right: 50px;
+    height: 100vh;
+    width: 100%;
+    padding-top: 20px;
+    background: url(./img/bg.png) repeat scroll left top #ffffff;
+    border-radius: 5px;
+}
+
+
+.page-caption {
+    font-family: "Inter", sans-serif;
+    letter-spacing: 1px;
+    font-size: 23px;
+    color: #EC8701;
+    padding: 8px 0px;
+}
+
+.wrapper {
+    border-top: 1px dashed #ccc;
+    padding: 0px;
+    margin-bottom: 8px;
+}
+
+.form_title {
+    font-family: "Inter", sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+    padding-bottom: 4px;
+}
+
+.form_subtitle {
+    font-family: "Inter", sans-serif;
+    color: #666666;
+    font-size: 9px;
+}
+
+#form_inside {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#left_section {
+    min-width: 50%;
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: 400;
+    color: #343434;
+    padding-top: 10px;
+}
+
+h3 #inside_text {
+    font-size: 9px;
+}
+
+#select-dis {
+    border: 1px solid #c2c2c2;
+    padding: 4px 10px;
+    width: 100%;
+    background: linear-gradient(to bottom, #FFFFFF 20%, #F6F6F6 52%, #d8d8d8 90%, #c8c8c8 100%);
+}
+
+#input-text {
+    border: 1px solid #c2c2c2;
+    padding: 4px 10px;
+    width: 100%;
+    background: linear-gradient(to bottom, #FFFFFF 20%, #F6F6F6 52%, #d8d8d8 90%, #c8c8c8 100%);
+}
+
+#dateofbirth {
+    font-size: 15px;
+    font-weight: 400;
+    color: #0f0f0f;
+    padding-top: 10px;
+}
+
+td {
+    color: #343434;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#select-date {
+    border: 1px solid #c2c2c2;
+    padding: 4px 10px;
+    width: 100%;
+    background: linear-gradient(to bottom, #FFFFFF 20%, #F6F6F6 52%, #d8d8d8 90%, #c8c8c8 100%);
+}
+
+strong {
+    color: #343434;
+    font-size: 15px;
+}
+
+#gender-check {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#gender-chekbox {
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#handicap-check {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#handicap-chekbox {
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#bottom-text {
+    font-size: 15px;
+    padding-bottom: 10px;
+    color: #343434;
+}
+
+#right_section {
+    display: flex;
+    flex-direction: column;
+    min-width: 50%;
+    padding-left: 2%;
+    border-left: 1px solid #ccc;
+}
+
+#computer-check {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#computer-chekbox {
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#submit {
+    width: 30%;
+    padding: 8px 16px;
+    border: 1px solid #c2c2c2;
+    padding: 4px 10px;
+    background: linear-gradient(to bottom, #FFFFFF 20%, #F6F6F6 52%, #d8d8d8 90%, #c8c8c8 100%);
+}
