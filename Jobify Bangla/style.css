@@ -55,10 +55,10 @@ nav ul li a {
 #cta_btn_secondary {
   border: none;
   font-weight: 700;
-  border-bottom: 2px solid ##FCAEAF;
+  border-bottom: 2px solid #fcaeaf;
   padding: 16px 32px;
   background-color: transparent;
-  color: #35797b;
+  color: #07242f;
   cursor: pointer;
 }
 
@@ -80,6 +80,7 @@ nav ul li a {
 #hero_left h1 {
   width: 100%;
   font-family: "Hind Siliguri", sans-serif;
+  color: #07242f;
   line-height: 87px;
   font-weight: 600;
   font-size: 60px;
@@ -95,10 +96,10 @@ nav ul li a {
   display: flex;
   gap: 32px;
 }
-
+/* class */
 #cta_btn2 {
   border: none;
-  border-bottom: 2px solid #FCAEAF;
+  border-bottom: 2px solid #fcaeaf;
   padding: 16px 32px -2px 32px;
 }
 
@@ -174,4 +175,60 @@ nav ul li a {
 #container4 img {
   width: 50px;
   height: 50px;
+}
+
+#container5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  background-color: #fcaeaf;
+  left: 120px;
+  bottom: 200px;
+}
+
+#container5 img {
+  width: 50px;
+  height: 50px;
+}
+
+#container6 {
+  position: absolute;
+  height: 230px;
+  width: 300px;
+  background-color: #fff4ce;
+  border-radius: 8px;
+  right: 30px;
+  bottom: 20px;
+}
+
+#container6 img {
+  width: 240px;
+  position: absolute;
+  bottom: 0;
+  left: 30px;
+}
+
+#container7 {
+  position: absolute;
+  width: 260px;
+  height: 60px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 6px 12px;
+  left: 120px;
+  bottom: 90px;
+  box-shadow: 5px 5px 15px #25252534;
+}
+
+#container7 svg {
+  height: 36px;
+  color: #48c08a;
 }
